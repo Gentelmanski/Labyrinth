@@ -172,7 +172,7 @@ void saveMazeToFile(Cell maze[][height], const std::string& filename)
     }
     else
     {
-        std::cerr << "Не получилось открыть файл для записи" << std::endl;
+        std::cout<< "Не получилось открыть файл для записи" << std::endl;
     }
 }
 
